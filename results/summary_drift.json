@@ -1,0 +1,14 @@
+{
+  "R": 500,
+  "seed": 20261023,
+  "n": [
+    300,
+    1000,
+    3000,
+    10000
+  ],
+  "A": 1.5,
+  "model": "Y = gamma + eps, eps tilted by A*b_d(eps;n)/sqrt(n)",
+  "dictionary": "b1 fixed; b_d triangular with sensitivity lambda_n/2; 3 even directions",
+  "note": "descriptive non-oracle arm; not a test of P10"
+}

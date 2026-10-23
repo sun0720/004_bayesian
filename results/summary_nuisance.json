@@ -1,0 +1,14 @@
+{
+  "R": 10,
+  "seed": 20261022,
+  "n": [
+    300
+  ],
+  "a": [
+    0.0,
+    1.5
+  ],
+  "model": "Y = gamma X + zeta X^2 + eps, X~Exp(1), target gamma, nuisance zeta",
+  "dictionary": "sin(jY), orthonormalised at theta0",
+  "runtime_s": 3.3
+}
